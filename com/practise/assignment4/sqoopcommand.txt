@@ -1,0 +1,11 @@
+#taken help from https://www.toptal.com/database/hdfs-tutorial-data-migration-from-postgresql
+
+sqoop import --connect 'jdbc:postgresql://localhost:5432/public' \
+--username 'postgres' \
+--password 'admin'
+--table 'pysparkpractise_customer' \
+--target-dir 'pysparkpractise_customer' \
+--split-by 'id'
+
+
+
