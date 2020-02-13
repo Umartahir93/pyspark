@@ -3,10 +3,10 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 import socket
 
-CONSUMER_KEY = '0gFJpitshfdNVG3tO8b9tJQtv'
-CONSUMER_SECRET = 'gebAwM8gKTZ9ydXIfaeoHOdRbSxmAU5PpcqAuCStXRfKH2XseL'
-ACCESS_TOKEN = '145640128-wDBnlhLdyXVhBKmFdPnao7cwCS6QMK9cRlxQzltI'
-ACCESS_TOKEN_SECRET = 'F26FzI2gTXFqoSSrAVoYrLh6awDWVD6tXo7fDwPXM5A95'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_TOKEN = ''
+ACCESS_TOKEN_SECRET = ''
 
 
 class StdOutListener(StreamListener):
